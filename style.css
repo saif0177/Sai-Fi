@@ -486,10 +486,10 @@ select {
 
 .navigation {
   width: 100vw;
-  height: 70px;
+  height: 60px;
   background:transparent;
   position: fixed;
-  bottom: 2px;
+  bottom: 0;
   justify-self: center;
   display: none;
   justify-content: center;
@@ -589,7 +589,7 @@ select {
 
 .indicator {
   position: absolute;
-  top: -41%;
+  top: -55%;
   left: 0px;
   width: 60px;
   height: 60px;
@@ -605,7 +605,7 @@ select {
 
 .labi {
   position: absolute;
-  top: -74%;
+  top: -95%;
   height: 161px;
   width: 160px;
   transition: 0.5s;
@@ -618,7 +618,7 @@ select {
   position: absolute;
   right: 0;
   width: 100vw;
-  height: 40px;
+  height: 45px;
   background: var(--col-nav-bc);
   border-top-right-radius: 10px;
   transition: 0.5s;
@@ -642,7 +642,7 @@ select {
 }
 
 .navigation ul li:nth-child(2).active~.right-labi {
-  width: calc(83.333vw - 32px);
+  width: calc(83.333vw - 30px);
 }
 
 .navigation ul li:nth-child(1).active~.right-labi {
@@ -653,7 +653,7 @@ select {
   position: absolute;
   left: 0;
   width: 10px;
-  height: 40px;
+  height: 45px;
   background: var(--col-nav-bc);
   border-top-left-radius: 10px;
   transition: 0.5s;
@@ -1110,9 +1110,9 @@ button:focus {
 /* walcom masag */
 
 .container_content_inner {
-  margin-right: 60px;
+  margin-right: 75px;
   position: absolute;
-  top: 30%;
+  top: 26%;
   left: 15%;
   font-size: 20px;
   overflow: hidden;
@@ -1396,7 +1396,7 @@ button:focus {
 
 .thumbnail {
   position: absolute;
-  bottom: 100px;
+  bottom: 150px;
   z-index: 11;
   display: flex;
   gap: 10px;
